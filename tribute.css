@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+body{
+    background-color: black;
+    color: yellow;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar {
+    background-color: #000000;
+    color: white;
+    /* border-radius: 14px; */
+
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 14px;
+}
+
+.navbar li a {
+    padding: 22px 2px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover {
+
+    color: rgb(250, 196, 3);
+}
+
+
+.about-us{
+  height: 100%;
+  width: 100%;
+  padding: 90px 0;
+  /* background: #ffffff; */
+ 
+}
+.pic{
+  height: auto;
+  width:  302px;
+}
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text{
+  width: 540px;
+}
+.text h2{
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: white;
+
+}
+h1{
+    font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: rgb(53, 4, 144);
+}
+.text h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+span{
+  color: #002ad0;
+}
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.data{
+  margin-top: 30px;
+}
+.hire{
+  font-size: 18px;
+  background: #b70000;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.hire:hover{
+  background: #f40000;
+  border: 1px solid #ec0303;
+}
+.new{
+    margin-top: 100px;
+    background: white;
+    color: black;
+   align-items: center;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+hr{
+    border-top: 1px dotted rgb(242, 255, 0);
+}
+footer{
+  color: rgb(251, 251, 251);
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+  img{
+    height: auto;
+    margin-bottom: 20px;
+    max-width: 302px;
+    margin-right: 40px;
+  }
+  .text {
+    width: 100%;
+    text-align: center;
+  }
+  .text h2 {
+    font-size: 60px;
+  }
+  h1{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text h2 {
+    font-size: 40px;
+  }
+  h1{
+    font-size: 15px;
+  }
+  .text h5 {
+    font-size: 18px;
+  }
+  .text p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .data {
+    text-align: center;
+  }
+}
